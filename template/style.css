@@ -80,7 +80,6 @@ a{
 
 #wrapper h1{
 	font-size: 48px;
-	color: rgb(6, 106, 117);
 	padding: 2px 0 10px 0;
 	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
 	font-weight: bold;
@@ -89,7 +88,6 @@ a{
 }
 /** For the moment only webkit supports the background-clip:text; */
 #wrapper h1{
-    color:red;
 }
 #wrapper h1:after{
 	content: ' ';
@@ -137,10 +135,9 @@ input {
 #wrapper p.button input{
 	width: 30%;
 	cursor: pointer;	
-	background: #ed7942;
+	background: ;
 	padding: 8px 5px;
 	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-	color: #fff;
 	font-size: 24px;	
 	border: 1px solid rgb(28, 108, 122);	
 	margin-bottom: 10px;	
@@ -151,7 +148,7 @@ input {
 }
 #wrapper p.button input:active,
 #wrapper p.button input:focus{
-	background: rgb(40, 137, 154);
+	background: #fff
 	position: relative;
 	top: 1px;
 	border: 1px solid rgb(12, 76, 87);	
@@ -193,12 +190,10 @@ p.change_link{
 	font-size: 16px	;
 	text-align: right;
 	border-top: 1px solid rgb(219, 229, 232);
-	background: #dac3b8;
 }
 #wrapper p.change_link a {
 	display: inline-block;
 	font-weight: bold;
-	background: #dac3b8;
 	padding: 2px 6px;
 	margin-left: 10px;
 	text-decoration: none;
@@ -238,3 +233,39 @@ p.change_link{
     
     color:#ed7942
 }
+
+
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px;
+        background-color: #f1f1f1;
+}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* Set gray background color and 100% height */
+    .col-sm-2 sidenav {
+    
+   
+    
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
