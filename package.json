@@ -1,0 +1,26 @@
+{
+  "name": "postit",
+  "version": "1.0.0",
+  "description": "PostIt is a simple application that allows friends and colleagues create groups for notifications.",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "POST"
+  ],
+  "author": "Ovie Ipheghe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
