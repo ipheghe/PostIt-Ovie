@@ -8,6 +8,8 @@
       padding-top: 20px;
       background-color: #f1f1f1;
       height: 100%;
+     background: #616161;
+    border-right: #757575;
     }
         
     /* Set gray background color and 100% height */
@@ -32,3 +34,26 @@
       }
       .row.content {height:auto;} 
     }
+
+.form_group1{
+    margin: 0 auto;
+    border: 1px solid #eoeoeo;
+    padding: 20px;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-control{
+width: 100%;
+}
+
+.sidenav a{
+
+    color: #fff;
+   text-decoration: none;
+    padding-bottom: 25px;
+}
+.sidenav a:hover{
+
+    color: #eee;
+
+}
