@@ -5,56 +5,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-   <body>
+  <body>
         <div class="container">
+            <!-- Codrops top bar -->
             
-            <div class="row">
-                
-                <div class="col-sm-12">
-                
-                    
-                    
-                </div>
-            </div>
-            
-            <header>
-                <h1>PostIt Login Form</h1>
-<!--
-				<nav class="codrops-demos">
-					<span>Click <strong>"Join us"</strong> to see the form switch</span>
-					<a href="index.html" class="current-demo">Demo 1</a>
-					<a href="index2.html">Demo 2</a>
-					<a href="index3.html">Demo 3</a>
-				</nav>
--->
+            <header style="color:red; font-weight: 400; font-size: 55px;">
+                <h1 >PostIt Login Form</h1>
+
             </header>
+            
+                    <div class="row">
+          <div class="col-lg-12">
+            <h1> <small></small></h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html"></a></li>
+              <li class="active"></li>
+            </ol>
+          </div>
+        </div><!-- /.row -->
             
             <section>				
                 <div id="container_demo" >
-                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
-                    <a class="hiddenanchor" id="toregister"></a>
-                    <a class="hiddenanchor" id="tologin"></a>
+				
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form  action="mysuperscript.php" autocomplete="on"> 
-                                <h1>Log in</h1> 
+                            <form  action="#" autocomplete="on"> 
+                                <h1>Login</h1> 
                                 <p> 
-                                    <label > Your email or username </label>
-                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                    <label for="username" class="uname" > Email or Username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder=""/>
                                 </p>
                                 <p> 
-                                    <label > Your password </label>
-                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                    <label for="password" class="youpasswd"> Password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="" /> 
                                 </p>
-                                <p class="keeplogin"> 
-									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
-									<label for="loginkeeping">Keep me logged in</label>
-								</p>
                                 <p class="login button"> 
                                     <input type="submit" value="Login" /> 
 								</p>
@@ -64,11 +53,11 @@
 								</p>
                             </form>
                         </div>
-                        
-                      </div>
-                    </div>
 
+
+                    </div>
+                </div>  
             </section>
         </div>
-</body>
-</html> 
+    </body>
+</html>

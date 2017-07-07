@@ -138,7 +138,7 @@ input {
 #wrapper p.button input{
 	width: 30%;
 	cursor: pointer;	
-	background: chartreuse;
+	background: #ed7942;
 	padding: 8px 5px;
 	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
 	color: #fff;
@@ -194,7 +194,7 @@ p.change_link{
 	font-size: 16px	;
 	text-align: right;
 	border-top: 1px solid rgb(219, 229, 232);
-	background: chartreuse;
+	background: #dac3b8;
 }
 #wrapper p.change_link a {
 	display: inline-block;
@@ -239,5 +239,5 @@ p.change_link{
     color:chartreuse
 }#login_button{
     
-    color:chartreuse
+    color:#ed7942
 }
